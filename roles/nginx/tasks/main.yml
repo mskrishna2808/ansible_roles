@@ -1,7 +1,7 @@
 ---
 - name: Install EPEL repository
   yum:
-    name: epel-release
+    name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
     state: present
 
 - name: Install Nginx on Linux server
